@@ -42,3 +42,7 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector("body").style.backgroundColor = "#222";
   random = Math.trunc(Math.random() * 20 + 1);
 });
+
+let i = 10;
+i -= 1;
+console.log(i);
